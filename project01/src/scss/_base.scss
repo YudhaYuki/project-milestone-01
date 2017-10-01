@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #252120;
+    background-color: #141d2f;
 }
 
 .col-sm-8 {
@@ -22,7 +22,7 @@ img {
 }
 
 .background-color-flexcard {
-    background-color: #3d3837;
+    background-color: #203256;
 }
 
 .rounded-circle{
@@ -69,6 +69,11 @@ div.stars {
     color: #FD4;
     transition: all .25s;
   }
+
+  .nav-background-color
+  {
+      background-color: #ffffff;
+  }
   
   input.star-5:checked ~ label.star:before {
     color: #FE7;
@@ -89,5 +94,19 @@ div.stars {
   }
 
   .navbar-font-color{
-      color:grey;
+    color:white !important;
+  }
+
+
+  .background-color-flexcard-body{
+    background-color: #233a68;
+  }
+
+  .flexcard-header-fontcolor{
+      color: #fbba35;
+      font-weight: bold;
+  }
+
+  .text-modal-fade {
+      color: black;
   }
